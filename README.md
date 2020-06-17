@@ -7,6 +7,6 @@ This project was developed using the below listed technologies:
 
 * [HTML] - Hyper Text Markup Language.
 * [CSS] - Cascade Style Sheets.
-* [GRID CSS] - a CSS layout method designed for the two-dimensional layout of items on a webpage or application.
-* [Javascript] - programming language that conforms to the ECMAScript specification.
-* [GIT] - distributed version-control system.
+* [GRID CSS] - A CSS layout method to create layout of items on a webpage.
+* [Javascript] - Programming language that conforms to the ECMAScript specification.
+* [GIT] - Distributed version-control system.
