@@ -1,21 +1,21 @@
 /**
- * 
+ *
  * Manipulating the DOM exercise.
  * Exercise programmatically builds navigation,
  * scrolls to anchors from navigation,
  * and highlights section in viewport upon scrolling.
- * 
+ *
  * Dependencies: None
- * 
+ *
  * JS Version: ES2015/ES6
- * 
+ *
  * JS Standard: ESlint
- * 
+ *
 */
 
 /**
- * Define Global Variables
- * 
+ * Definition of Global Variables
+ *
 */
 const startingTime = performance.now();
 const navBar = document.getElementById('navbar__list');
@@ -24,7 +24,7 @@ let counter = 5;
 /**
  * End Global Variables
  * Start Helper Functions
- * 
+ *
 */
 
 // Function that activates smooth scrolling
@@ -73,8 +73,19 @@ const removeNavBar = () => {
 /**
  * End Helper Functions
  * Begin Main Functions
- * 
+ *
 */
+//add new section
+const addNewSection = function() {
+    const newElement = document.createElement('li');
+    newElement.classList.add('menu__link');
+    newElement.id = 'new-section';
+    const link = document.createElement('a');
+    link.innerText = 'New Section';
+    link.href = '#top';
+    newElement.appendChild(link);
+    return newElement;
+};
 
 // build the nav
 const buildNavBar = function() {
@@ -93,14 +104,9 @@ const buildNavBar = function() {
         fragment.appendChild(newElement);
     }
     // Add "new section" button
-    const newElement = document.createElement('li');
-    newElement.classList.add('menu__link');
-    newElement.id = 'new-section';
-    const link = document.createElement('a');
-    link.innerText = 'New Section';
-    link.href = '#top';
-    newElement.appendChild(link);
-    fragment.appendChild(newElement);
+    let newSection=addNewSection();
+    fragment.appendChild(newSection);
+
     // Add menu button
     const menu = document.createElement('li');
     menu.classList.add('menu__link');

@@ -144,7 +144,7 @@ footer #go_top_button {
 
 footer #go_top_button:hover {
     background: #fff;
-    color: #333;
+    color: #f44336;
     transition: ease 0.3s all;
 }
 

@@ -6,11 +6,9 @@ landing-page-udacity
 
 ### Technologies
 
-For this project I've used the below listed technologires:
+For this project we've used the below listed technologies:
 
 * [HTML] - Hyper Text Markup Language
 * [CSS] - Cascade Style Sheets
-* [GRID CSS] - 
+* [GRID CSS] -
 * [Javascript] - great UI boilerplate for modern web apps
-
-## Contributing
