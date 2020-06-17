@@ -1,12 +1,16 @@
 landing-page-udacity
 
-# Landing Page
+# Landing Page - Dinamically modifiying the DOM
 
-# My second project inspired by Udacity for the FEND Nano-degree course 
+# My second project inspired by Udacity for the FEND Nano-degree course.
+
+### Technologies
+
+For this project I've used the below listed technologires:
+
+* [HTML] - Hyper Text Markup Language
+* [CSS] - Cascade Style Sheets
+* [GRID CSS] - 
+* [Javascript] - great UI boilerplate for modern web apps
 
 ## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
